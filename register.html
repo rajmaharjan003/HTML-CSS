@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707264000&semt=sph);
+            background-repeat: no-repeat;
+            background-position: none;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .registration {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin-top: 200px;
+            font-size: x-large;
+            padding: 20px 10px 30px 20px;
+
+        }
+
+        .registration {
+            width: 60%;
+            min-height: 10px;
+            border: 2px groove;
+            margin-left: 220px;
+
+        }
+
+        .fname {
+            margin-bottom: 10px;
+            border-radius: 9px;
+            padding: 6px;
+        }
+
+        .lname {
+            margin-bottom: 10px;
+            border-radius: 9px;
+            padding: 6px;
+        }
+
+        .contact {
+            margin-bottom: 10px;
+            border-radius: 9px;
+            padding: 6px;
+        }
+
+        .email {
+            margin-bottom: 10px;
+            border-radius: 9px;
+            padding: 6px;
+            margin-left: 20px;
+        }
+
+        .password {
+            border-radius: 9px;
+            padding: 6px;
+            margin-left: 10px;
+            margin-top: 4px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 7px;
+            text-align: center;
+        }
+
+        .button a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="registration">
+        <div>
+            <h1>Registration Form</h1>
+            <label for="fname">First Name :</label>
+            <input type="text" class="fname" id="fname" placeholder="enter your first name" requred>
+        </div>
+        <div>
+            <label for="lname">Last Name :</label>
+            <input type="text" class="lname" id="lname" placeholder="enter your last name" required>
+        </div>
+        <div>
+            <label for="contact">Phone No. :</label>
+            <input class="contact" type="number" name="contact" id="contact" placeholder="9800000000" required>
+        </div>
+        <div>
+            <label for="email">Email Id :</label>
+            <input type="email" name="email" id="email" class="email" placeholder="example@gmail.com">
+        </div>
+        <div>
+            <label for="password">Password :</label>
+            <input class="password" type="password" placeholder="************">
+        </div>
+        <button class="button"><a href="new.html">Sign Up</a></button>
+    </div>
+</body>
+
+</html>
